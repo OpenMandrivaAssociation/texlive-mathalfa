@@ -1,3 +1,9 @@
+# revision 24327
+# category Package
+# catalog-ctan /macros/latex/contrib/mathalfa
+# catalog-date 2011-10-19 12:58:31 +0200
+# catalog-license lppl1.3
+# catalog-version 1.04
 Name:		texlive-mathalfa
 Version:	1.04
 Release:	1
@@ -41,6 +47,7 @@ existing packages for this job.
 %doc %{_texmfdistdir}/doc/latex/mathalfa/README
 %doc %{_texmfdistdir}/doc/latex/mathalfa/mathalfa.pdf
 %doc %{_texmfdistdir}/doc/latex/mathalfa/mathalfa.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -51,3 +58,5 @@ existing packages for this job.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
