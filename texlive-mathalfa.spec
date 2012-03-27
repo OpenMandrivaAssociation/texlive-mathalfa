@@ -1,12 +1,12 @@
-# revision 24327
+# revision 25664
 # category Package
 # catalog-ctan /macros/latex/contrib/mathalfa
-# catalog-date 2011-10-19 12:58:31 +0200
+# catalog-date 2012-03-16 01:11:40 +0100
 # catalog-license lppl1.3
-# catalog-version 1.04
+# catalog-version 1.05
 Name:		texlive-mathalfa
-Version:	1.04
-Release:	2
+Version:	1.05
+Release:	1
 Summary:	General package for loading maths alphabets in LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mathalfa
