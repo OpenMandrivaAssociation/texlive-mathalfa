@@ -1,11 +1,11 @@
-# revision 27199
+# revision 26209
 # category Package
 # catalog-ctan /macros/latex/contrib/mathalfa
-# catalog-date 2012-07-16 01:16:42 +0200
+# catalog-date 2012-04-28 17:53:25 +0200
 # catalog-license lppl1.3
-# catalog-version 1.07
+# catalog-version 1.06
 Name:		texlive-mathalfa
-Version:	1.07
+Version:	1.06
 Release:	1
 Summary:	General package for loading maths alphabets in LaTeX
 Group:		Publishing
@@ -48,3 +48,25 @@ existing packages for this job.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.06-1
++ Revision: 804939
+- Update to latest release.
+
+* Tue Mar 27 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.05-1
++ Revision: 787686
+- Update to latest release.
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.04-2
++ Revision: 753771
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.04-1
++ Revision: 718965
+- texlive-mathalfa
+- texlive-mathalfa
+- texlive-mathalfa
+- texlive-mathalfa
+
