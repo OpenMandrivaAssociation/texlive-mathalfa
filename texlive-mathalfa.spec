@@ -5,7 +5,7 @@
 # catalog-license lppl1.3
 # catalog-version 1.07
 Name:		texlive-mathalfa
-Version:	1.09
+Version:	1.10
 Release:	1
 Summary:	General package for loading maths alphabets in LaTeX
 Group:		Publishing
