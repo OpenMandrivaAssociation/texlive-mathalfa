@@ -6,7 +6,7 @@
 # catalog-version 1.07
 Name:		texlive-mathalfa
 Version:	1.10
-Release:	2
+Release:	3
 Summary:	General package for loading maths alphabets in LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mathalfa
